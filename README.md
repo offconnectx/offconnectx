@@ -1,13 +1,13 @@
-#Offline Tx
+# Offline Tx
 
-##Getting Started
+## Getting Started
 
 ```bash
 git clone https://github.com/Luqxus/in-finite.git
 
 nvm use v18.17.0
 ```
-##Usage
+## Usage
 
 To run the project
 ```bash
