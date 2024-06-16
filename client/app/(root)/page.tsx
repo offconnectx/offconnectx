@@ -4,6 +4,8 @@ import React, { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Loader2 } from 'lucide-react';
 import { useStateContext } from '@/context';
+import FAQ from '@/components/FAQ';
+import About from '@/components/About';
 
 const Home: React.FC = () => {
   const [isLoading, setIsLoading] = useState(false);
@@ -26,6 +28,8 @@ const Home: React.FC = () => {
         <header className="home-header">
           Welcome
         </header>
+        <About />
+        <FAQ />
 
         RECENT   
 
