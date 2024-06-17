@@ -34,8 +34,8 @@ const NavBar = () => {
                         <div className="flex items-center space-x-8 ">
                         <ul className="flex space-x-4">
                             <li><ScrollLink to="about" smooth={true} duration={500} className="text-lg font-medium duration-300 text-white hover:bg-sky-200 hover:text-black rounded-lg p-3">About</ScrollLink></li>
-                            <li><ScrollLink to="home" smooth={true} duration={500} className="text-lg font-medium duration-300 text-white hover:bg-sky-200 hover:text-black rounded-lg p-3">Tutorial</ScrollLink></li>
-                            <li><ScrollLink to="services" smooth={true} duration={500} className="text-lg font-medium duration-300 text-white hover:bg-sky-200 hover:text-black rounded-lg p-3">Wallets</ScrollLink></li>
+                            <li><ScrollLink to="services" smooth={true} duration={500} className="text-lg font-medium duration-300 text-white hover:bg-sky-200 hover:text-black rounded-lg p-3">Services</ScrollLink></li>
+                            <li><ScrollLink to="faq" smooth={true} duration={500} className="text-lg font-medium duration-300 text-white hover:bg-sky-200 hover:text-black rounded-lg p-3">FAQ</ScrollLink></li>
                             <li><ScrollLink to="contact" smooth={true} duration={500} className="text-lg font-medium duration-300 text-white hover:bg-sky-200 hover:text-black rounded-lg p-3">Contact</ScrollLink></li>
                         </ul>
                             {/* <button className="w-full text-white bg-indigo-600 font-medium rounded-lg px-3 py-2 text-center 
@@ -60,8 +60,8 @@ const NavBar = () => {
                     <div className=" space-y-1 sm:px-3">
                     <ul className="flex space-x-4">
                             <li><ScrollLink to="about" smooth={true} duration={500} className="font-medium duration-300 block text-white hover:bg-sky-400 hover:text-black rounded-lg p-3">About</ScrollLink></li>
-                            <li><ScrollLink to="home" smooth={true} duration={500} className="font-medium duration-300 block text-white hover:bg-sky-400 hover:text-black rounded-lg p-3">Tutorial</ScrollLink></li>
-                            <li><ScrollLink to="services" smooth={true} duration={500} className="font-medium duration-300 block text-white hover:bg-sky-400 hover:text-black rounded-lg p-3">Wallets</ScrollLink></li>
+                            <li><ScrollLink to="services" smooth={true} duration={500} className="font-medium duration-300 block text-white hover:bg-sky-400 hover:text-black rounded-lg p-3">Services</ScrollLink></li>
+                            <li><ScrollLink to="faq" smooth={true} duration={500} className="font-medium duration-300 block text-white hover:bg-sky-400 hover:text-black rounded-lg p-3">FAQ</ScrollLink></li>
                             <li><ScrollLink to="contact" smooth={true} duration={500} className="font-medium duration-300 block text-white hover:bg-sky-400 hover:text-black rounded-lg p-3">Contact</ScrollLink></li>
                         </ul>
                             {/* <button className="w-full text-white bg-indigo-600 font-medium rounded-lg px-3.5 py-5 text-center 
