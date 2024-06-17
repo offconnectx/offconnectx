@@ -1,5 +1,4 @@
 import React from "react";
-import chart from "../../images/chart.jpeg";
 import Image from "next/image";
 
 const Services: React.FC = () => (
@@ -19,7 +18,7 @@ const Services: React.FC = () => (
 
       <div className="flex-1 flex flex-col justify-start items-center">
         <div className="card w-346 bg-base-100 shadow-xl">
-          <Image src={chart} alt="Analysis Chart" className="w-full h-full object-cover" />
+          
         </div>
       </div>
     </div>

@@ -6,6 +6,7 @@ import { Loader2 } from 'lucide-react';
 import { useStateContext } from '@/context';
 import FAQ from '@/components/FAQ';
 import About from '@/components/About';
+import CTA from '@/components/CTA';
 
 const Home: React.FC = () => {
   const [isLoading, setIsLoading] = useState(false);
@@ -28,6 +29,7 @@ const Home: React.FC = () => {
         <header className="home-header">
           Welcome
         </header>
+        <CTA />
         <About />
         <FAQ />
 
