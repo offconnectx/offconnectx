@@ -84,7 +84,7 @@ const Contact = () => {
                         placeholder='Name'
                         value={formData.name}
                         onChange={handleChange}
-                        className="w-full rounded-md py-3 px-4 bg-gray-100 text-gray-800 text-sm outline-blue-500 focus:bg-transparent" 
+                        className="w-full rounded-md py-3 px-4 bg-gray-100 hover:text-white text-sm outline-blue-500 focus:bg-transparent" 
                     />
                     <input 
                         type='email' 
@@ -92,7 +92,7 @@ const Contact = () => {
                         placeholder='Email'
                         value={formData.email}
                         onChange={handleChange}
-                        className="w-full rounded-md py-3 px-4 bg-gray-100 text-gray-800 text-sm outline-blue-500 focus:bg-transparent" 
+                        className="w-full rounded-md py-3 px-4 bg-gray-100 hover:text-white text-sm outline-blue-500 focus:bg-transparent" 
                     />
                     <input 
                         type='text' 
@@ -100,7 +100,7 @@ const Contact = () => {
                         placeholder='Subject'
                         value={formData.subject}
                         onChange={handleChange}
-                        className="w-full rounded-md py-3 px-4 bg-gray-100 text-gray-800 text-sm outline-blue-500 focus:bg-transparent" 
+                        className="w-full rounded-md py-3 px-4 bg-gray-100 hover:text-white text-sm outline-blue-500 focus:bg-transparent" 
                     />
                     <textarea 
                         name='message'
@@ -108,7 +108,7 @@ const Contact = () => {
                         rows={6}
                         value={formData.message}
                         onChange={handleChange}
-                        className="w-full rounded-md px-4 bg-gray-100 text-gray-800 text-sm pt-3 outline-blue-500 focus:bg-transparent"
+                        className="w-full rounded-md px-4 bg-gray-100 hover:text-white text-sm pt-3 outline-blue-500 focus:bg-transparent"
                     ></textarea>
                     <button 
                         type='submit'

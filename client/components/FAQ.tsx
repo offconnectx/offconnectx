@@ -48,14 +48,7 @@ const Faq = () => {
             >
               <div className="py-5 border-b border-gray-200 dark:border-gray-700">
                 <p className="mb-2 text-white dark:text-gray-400">
-                  All you need to do is deposit your ETH for UUSD. As long as you hold UUSD, Universel protocol
-                </p>
-                <p className="text-white dark:text-gray-400">
-                  will
-                  <a href="/" className="text-black hover:underline">
-                    automatically
-                  </a>
-                  calculate interest for you.
+                OffConnectX is a mobile system that allows you to send digital tokens, similar to secure electronic cash, even without an internet connection. It utilizes blockchain technology to facilitate these offline transactions.               
                 </p>
               </div>
             </div>
@@ -91,14 +84,9 @@ const Faq = () => {
             >
               <div className="py-5 border-b border-gray-200 dark:border-gray-700">
                 <p className="mb-2 text-white dark:text-gray-400">
-                  Landwind is first conceptualized and designed using the Figma software so everything you see in the library has a design equivalent in our Figma file.
-                </p>
+                Think of it like a digital IOU. You create a transaction on your phone specifying the amount and recipient of the tokens. This information is stored securely on your device without needing internet                </p>
                 <p className="text-white dark:text-gray-400">
-                  Check out the
-                  <a href="#" className="text-purple-600 dark:text-purple-500 hover:underline">
-                    Figma design system
-                  </a>
-                  based on the utility classes from Tailwind CSS and components from Landwind.
+                When you regain internet access, the app helps you broadcast the transaction, allowing it to be processed and the recipient to redeem the tokens.
                 </p>
               </div>
             </div>
@@ -134,24 +122,11 @@ const Faq = () => {
             >
               <div className="py-5 border-b border-gray-200 dark:border-gray-700">
                 <p className="mb-2 text-white dark:text-gray-400">
-                  The main difference is that the core components from Landwind are open source under the MIT license, whereas Tailwind UI is a paid product. Another difference is that Landwind relies on smaller and standalone components, whereas Tailwind UI offers sections of pages.
-                </p>
+                While their initial focus might be on smartphones with a dedicated app, OffConnectX's future plans include expanding to a wider range of devices.
+                                </p>
                 <p className="mb-2 text-white dark:text-gray-400">
-                  However, we actually recommend using both Landwind, Landwind Pro, and even Tailwind UI as there is no technical reason stopping you from using the best of two worlds.
-                </p>
-                <p className="mb-2 text-white dark:text-gray-400">Learn more about these technologies:</p>
-                <ul className="pl-5 text-white list-disc dark:text-gray-400">
-                  <li>
-                    <a href="#" className="text-purple-600 dark:text-purple-500 hover:underline">
-                      Landwind Pro
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="text-purple-600 dark:text-purple-500 hover:underline">
-                      Tailwind UI
-                    </a>
-                  </li>
-                </ul>
+                Their ultimate goal is to make offline transactions accessible on various platforms.
+                                </p>
               </div>
             </div>
 
@@ -186,24 +161,11 @@ const Faq = () => {
             >
               <div className="py-5 border-b border-gray-200 dark:border-gray-700">
                 <p className="mb-2 text-white dark:text-gray-400">
-                  The main difference is that the core components from Landwind are open source under the MIT license, whereas Tailwind UI is a paid product. Another difference is that Landwind relies on smaller and standalone components, whereas Tailwind UI offers sections of pages.
+                Security is a priority for OffConnectX.
                 </p>
                 <p className="mb-2 text-white dark:text-gray-400">
-                  However, we actually recommend using both Landwind, Landwind Pro, and even Tailwind UI as there is no technical reason stopping you from using the best of two worlds.
+                While details aren't yet public, they're likely to leverage the inherent security features of blockchain technology, known for its strong encryption and distributed ledger system, to safeguard your data and prevent unauthorized access to your tokens.
                 </p>
-                <p className="mb-2 text-white dark:text-gray-400">Learn more about these technologies:</p>
-                <ul className="pl-5 text-white list-disc dark:text-gray-400">
-                  <li>
-                    <a href="#" className="text-purple-600 dark:text-purple-500 hover:underline">
-                      Landwind Pro
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="text-purple-600 dark:text-purple-500 hover:underline">
-                      Tailwind UI
-                    </a>
-                  </li>
-                </ul>
               </div>
             </div>
           </div>

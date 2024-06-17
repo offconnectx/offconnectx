@@ -21,7 +21,7 @@ const LandingPage = () => {
       <section id="about" className="w-full  mb-60">
         <About />
       </section>
-      <section id="how" className="w-full  mb-60">
+      <section id="services" className="w-full  mb-60">
         <How />
       </section>
       <section id="faq" className="w-full mb-24">

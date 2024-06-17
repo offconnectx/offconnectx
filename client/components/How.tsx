@@ -63,7 +63,7 @@ const HowCard: React.FC<HowCardProps> = ({ color, title, icon, subtitle }) => (
 
 const How = () => {
   return (
-    <section className="max-container flex flex-col items-center gap-9">
+    <section id="services" className="max-container flex flex-col items-center gap-9">
       <div className="flex flex-col items-center gap-5">
         <h2 className="text-4xl font-palanquin font-bold text-white">
           How <span className="text-blue-500">OffConnectX</span> Works
