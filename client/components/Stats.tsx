@@ -2,8 +2,8 @@ import React from 'react'
 
 function Stats() {
   return (
-    <div className=" p-8 min-h-[250px] flex flex-col items-center justify-center font-[sans-serif] text-white -mt-20">
-    <h2 className="text-3xl font-bold mb-14 text-center">Application Metrics</h2>
+    <div className=" p-8 min-h-[250px] flex flex-col items-center justify-center font-[sans-serif] text-white -mt-44">
+    {/* <h2 className="text-3xl font-bold mb-14 text-center">Application Metrics</h2> */}
     <div className="grid lg:grid-cols-4 sm:grid-cols-2 gap-6 max-lg:gap-12">
       <div className="text-center">
         <h3 className="text-4xl font-extrabold">5.4<span className="text-sky-400">M+</span></h3>
