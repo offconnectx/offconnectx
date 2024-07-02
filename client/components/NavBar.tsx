@@ -27,10 +27,10 @@ const NavBar = () => {
 
                                 <Image src={logo} alt="" width={50} height={50} className="h-10 mr-3"/>
                                 <span className="text-3xl text-white font-bold"><span className="text-sky-400">OffConnectX</span></span>
-                                {/* </div> */}
+                                {/* </div> */} 
                             </a>
                     {/* </div> */}
-                    <div className="hidden md:block">
+                    <div className="xl:-mr-80 hidden md:block">
                         <div className="flex items-center space-x-8 ">
                         <ul className="flex space-x-4">
                             <li><ScrollLink to="about" smooth={true} duration={500} className="text-lg font-medium duration-300 text-white hover:bg-sky-200 hover:text-black rounded-lg p-3">About</ScrollLink></li>

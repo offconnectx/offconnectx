@@ -1,5 +1,6 @@
 import React from "react";
 import heroImg from "../public/heroImg.svg";
+import Modal from "./Modal";
 
 const Hero = () => {
   return (
@@ -9,9 +10,8 @@ const Hero = () => {
           Make <span className="text-sky-400">Offline</span> Transactions.
         </h1>
         <p className="text-gray-200 text-lg max-w-xl lg:max-w-md">
-          Experience the power of decentralized mobile transactions with OffConnectX.
-          Seamlessly execute transactions offline, powered by Toncoin from The Open
-          Network (TON).
+        With OffConnectX, discover the potential of decentralised mobile transactions. 
+        Use Toncoin from The Open Network (TON) to conduct transactions smoothly even when offline.
         </p> <br />
         <p className=" text-sky-400 font-bold -mt-8 -ml-10 ">Embrace the future of fast, secure, and scalable
         blockchain technology.</p>
@@ -21,6 +21,8 @@ const Hero = () => {
           </button>
         </div>
       </div>
+      <Modal/>
+
     </div>
   );
 };
