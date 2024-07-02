@@ -17,16 +17,16 @@ const LandingPage = () => {
   return (
     <main className="bg-gray-900 min-h-screen flex flex-col items-center">z
       <NavBar />
-      <section id="hero" className="w-full">
+      <section id="hero" className="w-full mb-30">
         <Hero />
       </section>
-      <section id="" className="mb-44">
+      <section id="" className="mb-36">
         <Stats />
       </section>
       <section id="services" className="w-full  mb-60">
         <How />
       </section>
-      <section id="about" className="w-full  mb-32s">
+      <section id="about" className="w-full  mb-32">
         <About />
       </section>
       {/* <section id="" className="w-full  mb-60">
