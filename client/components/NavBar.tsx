@@ -30,7 +30,9 @@ const NavBar = () => {
                                 {/* </div> */} 
                             </a>
                     {/* </div> */}
-                    <div className="xl:-mr-80 hidden md:block">
+                    {/* <div className="lg:mr-80 xl:-mr-80 hidden md:block"> */}
+                    <div className="hidden md:block">
+
                         <div className="flex items-center space-x-8 ">
                         <ul className="flex space-x-4">
                             <li><ScrollLink to="about" smooth={true} duration={500} className="text-lg font-medium duration-300 text-white hover:bg-sky-200 hover:text-black rounded-lg p-3">About</ScrollLink></li>

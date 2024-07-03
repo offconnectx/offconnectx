@@ -9,8 +9,8 @@ import How from '@/components/How';
 import Stats from '@/components/Stats';
 import CTA from '@/components/CTA';
 import  Style  from '@/components/Style';
-import Clients from '@/components/Team';
-import Team from "@/components/Team";
+// import Clients from '@/components/Team';
+// import Team from "@/components/Team";
 
 
 const LandingPage = () => {
@@ -33,7 +33,7 @@ const LandingPage = () => {
         <Style />
       </section> */}
       <section id="faq" className="w-full mb-24">
-        <Team/>
+        <FAQ/>
       </section>
       <section id="contact" className="w-full mb-24">
         <Contact />
