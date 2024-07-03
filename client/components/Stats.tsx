@@ -13,7 +13,7 @@ function Stats() {
       <div className="text-center">
         <div className="flex text-center justify-center">
 
-      <Image src={users} alt="" width={50} height={50}/>
+      <Image src={users} alt="" width={50} height={50} className="h-10 mr-3" />
         <h3 className="text-4xl font-extrabold">5.4<span className="text-sky-400">M+</span></h3>
         </div>
         <p className="text-base font-bold mt-3 text-sky-400">Total Users</p>

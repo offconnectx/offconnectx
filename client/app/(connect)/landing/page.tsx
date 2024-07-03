@@ -23,7 +23,7 @@ const LandingPage = () => {
       <section id="" className="mb-36">
         <Stats />
       </section>
-      <section id="services" className="w-full  mb-60">
+      <section id="services" className="w-full  mb-52">
         <How />
       </section>
       <section id="about" className="w-full  mb-32">
