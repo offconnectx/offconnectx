@@ -1,5 +1,5 @@
 import React from "react";
-import heroImg from "../public/heroImg.svg";
+// import heroImg from "../public/heroImg.svg";
 import Modal from "./Modal";
 
 const Hero = () => {
@@ -21,7 +21,7 @@ const Hero = () => {
           </button>
         </div>
       </div>
-      <Modal/>
+      {/* <Modal/> */}
 
     </div>
   );
