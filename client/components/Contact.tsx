@@ -25,7 +25,7 @@ const Contact = () => {
 
     return (
         <div  id="contact" className="p-8">
-            <div className="grid sm:grid-cols-2 items-start gap-16 p-4 mx-auto max-w-4xl bg-sky-600">
+            <div className="grid sm:grid-cols-2 items-start gap-16 p-4 mx-auto max-w-4xl bg-blue-gradient ">
                 <div>
                     <h1 className="text-white text-3xl font-extrabold">Contact Us</h1>
                     <p className="text-sm text-white mt-4">Have some questions about <span className="text-gray-900 font-bold">OffConnectX</span>? Then reach out we'd love to hear about them and provide help.</p>
@@ -65,14 +65,17 @@ const Contact = () => {
                             </li>
                             <li className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
                                 <a href="https://twitter.com/africasblock">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill='#007bff'
-                                        viewBox="0 0 24 24">
-                                        <path
-                                            d="M11.454 2.07325C10.8736 2.07342 10.3164 2.3014 9.90238 2.70816C9.48834 3.11491 9.25049 3.66793 9.24001 4.24825L9.21801 5.45125C9.21693 5.51594 9.20212 5.57967 9.17458 5.63821C9.14703 5.69675 9.10736 5.74878 9.05821 5.79084C9.00905 5.83291 8.95152 5.86406 8.88943 5.88223C8.82733 5.9004 8.76209 5.90518 8.69801 5.89625L7.50601 5.73425C5.93701 5.52025 4.43401 4.79725 2.99201 3.59625C2.53501 6.12425 3.42701 7.87625 5.57601 9.22725L6.91001 10.0663C6.97318 10.1063 7.02561 10.1612 7.06277 10.2262C7.09993 10.2911 7.12069 10.3641 7.12325 10.4389C7.12582 10.5137 7.1101 10.5879 7.07747 10.6553C7.04484 10.7226 6.99628 10.7809 6.93601 10.8253L5.72001 11.7133C6.44401 11.7583 7.13001 11.7263 7.70001 11.6133C11.304 10.8933 13.7 8.18225 13.7 3.70825C13.7 3.34325 12.927 2.07325 11.454 2.07325ZM7.71201 4.21925C7.72533 3.48292 7.95557 2.76688 8.3739 2.16078C8.79223 1.55468 9.38007 1.08545 10.0638 0.811845C10.7476 0.538242 11.4968 0.47242 12.2178 0.622622C12.9388 0.772823 13.5994 1.13237 14.117 1.65625C14.66 1.65325 15.122 1.79025 16.156 1.16425C15.9 2.41625 15.774 2.96025 15.228 3.70825C15.228 9.54625 11.64 12.3843 8.00001 13.1113C5.50301 13.6093 1.87301 12.7913 0.833008 11.7053C1.36301 11.6633 3.51701 11.4323 4.76301 10.5213C3.70901 9.82625 -0.483992 7.35925 2.27101 0.725254C3.56501 2.23525 4.87601 3.26425 6.20501 3.80925C7.09001 4.17225 7.30701 4.16425 7.71201 4.22025V4.21925Z">
-                                        </path>
+                                <svg width="30px" height="30px" viewBox="0 0 48 48" id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" fill="#007bff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><defs></defs>
+                                <path className="cls-1" d="M38.74,16.55v1c0,10.07-7.64,21.61-21.62,21.61A21.14,21.14,0,0,1,5.5,35.71a12.22,12.22,0,0,0,1.81.11,15.25,15.25,0,0,0,9.44-3.24,7.56,7.56,0,0,1-7.1-5.29,6.9,6.9,0,0,0,1.44.15,7.53,7.53,0,0,0,2-.27A7.57,7.57,0,0,1,7,19.72v-.1a7.42,7.42,0,0,0,3.44.94A7.54,7.54,0,0,1,8.05,10.5a21.58,21.58,0,0,0,15.68,7.94,6.38,6.38,0,0,1-.21-1.74,7.55,7.55,0,0,1,13.17-5.31,15.59,15.59,0,0,0,4.83-1.85,7.65,7.65,0,0,1-3.39,4.27,15.87,15.87,0,0,0,4.37-1.26,15.56,15.56,0,0,1-3.76,4Z"></path></g>
                                     </svg>
                                 </a>
                             </li>
+                            <li className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                                <a href="https://www.youtube.com/@abclubyoutube">
+                                <svg width="30px" height="30px" viewBox="0 -0.5 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M18.168 19.0028C20.4724 19.0867 22.41 17.29 22.5 14.9858V9.01982C22.41 6.71569 20.4724 4.91893 18.168 5.00282H6.832C4.52763 4.91893 2.58998 6.71569 2.5 9.01982V14.9858C2.58998 17.29 4.52763 19.0867 6.832 19.0028H18.168Z" stroke="#4886ea" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M12.008 9.17784L15.169 11.3258C15.3738 11.4454 15.4997 11.6647 15.4997 11.9018C15.4997 12.139 15.3738 12.3583 15.169 12.4778L12.008 14.8278C11.408 15.2348 10.5 14.8878 10.5 14.2518V9.75184C10.5 9.11884 11.409 8.77084 12.008 9.17784Z" stroke="#4886ea" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                </a>
+                            </li>
+                            
                         </ul>
                     </div>
                 </div>
