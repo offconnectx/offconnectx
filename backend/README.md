@@ -77,3 +77,7 @@ A function used to get the balance of the connected wallet:
 A function used to serialize a Cell to BoC and save it to local storage:
 	
 	private serialize = async (transfer: Cell)
+
+## 
+
+#### [ CHECK `https://github.com/Luqxus/in-finite/tree/dev/backend/example` FOR EXAMPLE.]
