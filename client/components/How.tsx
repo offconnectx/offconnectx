@@ -3,7 +3,7 @@ import { FaUsers, FaExchangeAlt, FaChartLine, FaCog, FaDollarSign, FaShieldAlt }
 
 const how = [
   {
-    color: "bg-blue-500",
+    color: "bg-blue-700",
     title: "STEP 1 - Users",
     icon: <FaUsers />,
     subtitle: "Users interact with the dapp via their mobile devices."
@@ -49,7 +49,7 @@ interface HowCardProps {
 }
 
 const HowCard: React.FC<HowCardProps> = ({ color, title, icon, subtitle }) => (
-  <div className="flex flex-col items-center white-glassmorphism p-3 m-2 cursor-pointer hover:shadow-xl">
+  <div className="flex flex-col items-center bg-blue-500 white-glassmorphism p-3 m-2 cursor-pointer hover:shadow-xl">
     <div className={`w-10 h-10 rounded-full flex justify-center items-center ${color}`}>
       {icon}
     </div>

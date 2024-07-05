@@ -9,6 +9,7 @@ import How from '@/components/How';
 import Stats from '@/components/Stats';
 import CTA from '@/components/CTA';
 import  Style  from '@/components/Style';
+import Mix from '@/components/Mix';
 // import Clients from '@/components/Team';
 // import Team from "@/components/Team";
 
@@ -23,21 +24,21 @@ const LandingPage = () => {
       <section id="" className="mb-36">
         <Stats />
       </section>
-      <section id="services" className="w-full  mb-52">
-        <How />
-      </section>
       <section id="about" className="w-full  mb-32">
         <About />
       </section>
+      <section id="services" className="w-full  mb-52">
+        <How />
+      </section>
       {/* <section id="" className="w-full  mb-60">
-        <Style />
+        <Mix/>
       </section> */}
-      <section id="faq" className="w-full mb-24">
+      {/* <section id="faq" className="w-full mb-24">
         <FAQ/>
       </section>
       <section id="contact" className="w-full mb-24">
         <Contact />
-      </section>
+      </section> */}
       <section id="cta" className="w-full mb-24">
         <CTA />
       </section>

@@ -10,7 +10,7 @@ const Faq = () => {
   };
 
   return (
-    <section id="faq" className="bg-sky-600 p-8 items-start gap-16  mx-auto max-w-4xl">
+    <section id="faq" className="bg-sky-600 p-8 items-start gap-16  mx-auto max-w-4xl rounded-[10px]">
       <div className="max-w-2xl mx-auto aspect-video">
         <h2 className="mb-6 text-3xl font-extrabold tracking-tight text-center text-white lg:mb-8 lg:text-3xl">
           Frequently asked questions
