@@ -30,8 +30,8 @@ const NavBar = () => {
                                 {/* </div> */} 
                             </a>
                     {/* </div> */}
-                    <div className="xl:-mr-80 hidden md:block">
-                    {/* <div className="hidden md:block"> */}
+                    {/* <div className="xl:-mr-80 hidden md:block"> */}
+                    <div className="hidden md:block">
 
                         <div className="flex items-center space-x-8 ">
                         <ul className="flex space-x-4">
