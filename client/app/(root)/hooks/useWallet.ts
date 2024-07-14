@@ -66,7 +66,7 @@ class UseWallet {
 			sendMode: SendMode.PAY_GAS_SEPARATELY,
 			messages: [
 				internal({
-					to: recipient,
+					to: recipient!,
 					value: amount, // 0.05 TON
 					body: reference, // optional comment
 					bounce: false,

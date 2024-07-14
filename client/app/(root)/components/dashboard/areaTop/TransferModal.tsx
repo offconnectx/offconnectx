@@ -5,7 +5,7 @@ import { Button, Modal } from "flowbite-react";
 import { useState } from "react";
 
 const TransferModal = (props: { balance: number, update: Function }) => {
-	const [openModal, setOpenModal] = useState(true);
+	const [openModal, setOpenModal] = useState(false);
 
 	const wallet = useWallet;
 	const [recipient, setRecipient] = useState<string>("");

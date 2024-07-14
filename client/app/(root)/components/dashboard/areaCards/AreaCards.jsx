@@ -29,7 +29,7 @@ const AreaCards = ({balance}) => {
         colors={["#e4e8ef", "#475be8"]}
         percentFillValue={80}
         cardInfo={{
-          title: "UZAR",
+          title: "ZAR",
           value: Number(balance * 8.20 * 17.18).toFixed(1),
           text: "Address",
         }}

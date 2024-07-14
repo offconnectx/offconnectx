@@ -122,10 +122,10 @@ const Faq = () => {
             >
               <div className="py-5 border-b border-gray-200 dark:border-gray-700">
                 <p className="mb-2 text-white dark:text-gray-400">
-                While their initial focus might be on smartphones with a dedicated app, OffConnectX's future plans include expanding to a wider range of devices.
+                {"While their initial focus might be on smartphones with a dedicated app, OffConnectX's future plans include expanding to a wider range of devices."}
                                 </p>
                 <p className="mb-2 text-white dark:text-gray-400">
-                Their ultimate goal is to make offline transactions accessible on various platforms.
+                {"Their ultimate goal is to make offline transactions accessible on various platforms."}
                                 </p>
               </div>
             </div>
@@ -164,7 +164,7 @@ const Faq = () => {
                 Security is a priority for OffConnectX.
                 </p>
                 <p className="mb-2 text-white dark:text-gray-400">
-                While details aren't yet public, they're likely to leverage the inherent security features of blockchain technology, known for its strong encryption and distributed ledger system, to safeguard your data and prevent unauthorized access to your tokens.
+                {"While details aren't yet public, they're likely to leverage the inherent security features of blockchain technology, known for its strong encryption and distributed ledger system, to safeguard your data and prevent unauthorized access to your tokens."}
                 </p>
               </div>
             </div>
