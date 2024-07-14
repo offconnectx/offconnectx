@@ -57,7 +57,6 @@ class UseWallet {
 	
 		const wallet = WalletContractV4.create({publicKey: key.publicKey, workchain: 0}); 
 		
-
 		console.log(wallet)
 
 		const seqno = await walletStore.getSeqno();

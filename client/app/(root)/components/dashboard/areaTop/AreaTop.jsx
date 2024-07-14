@@ -9,7 +9,7 @@ import { DateRange } from "react-date-range";
 import TransferModal  from "./TransferModal";
 import { useWallet } from "@/app/(root)/hooks/useWallet";
 
-const AreaTop = () => {
+const AreaTop = ({update}) => {
   const { openSidebar } = useContext(SidebarContext);
 
 
@@ -55,7 +55,7 @@ const AreaTop = () => {
       </div>
       <div className="area-top-r">
 
-      <TransferModal />
+      <TransferModal update={update} />
 
       <button
             onClick={async () => {

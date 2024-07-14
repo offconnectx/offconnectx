@@ -4,7 +4,7 @@ import { useWallet } from "@/app/(root)/hooks/useWallet";
 import { Button, Modal } from "flowbite-react";
 import { useState } from "react";
 
-const TransferModal = () => {
+const TransferModal = (props: { balance: number, update: Function }) => {
 	const [openModal, setOpenModal] = useState(true);
 
 	const wallet = useWallet;
@@ -26,6 +26,8 @@ const TransferModal = () => {
 		}
 
 		setIsSuccess(true);
+
+		props.update(Number(amount))
 	}
 
 	return (

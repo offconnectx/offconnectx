@@ -7,9 +7,8 @@ import { useState, useEffect } from "react";
 import axios from 'axios'
 import { useWallet } from "@/app/(root)/hooks/useWallet";
 
-const AreaCards = () => {
-  const [balance, setBalance] = useState(0);
-  const [, setError] = useState("");
+const AreaCards = ({balance}) => {
+  const [error, setError] = useState("");
   const wallet = useWallet;
 
 
@@ -18,31 +17,11 @@ const AreaCards = () => {
 
 
 
-  useEffect(() => {
-    //set url
-    // const url = 'https://api.coingecko.com/api/v3/simple/price?ids=tether&vs_currencies=zar'
-
-    // https://api.coingecko.com/api/v3/simple/price?ids=tether&vs_currencies=zar
-    // https://api.coingecko.com/api/v3/simple/price?ids=usd-coin&vs_currencies=zar
-    // https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&symbols=avax
-    // https://api.dexscreener.com/latest/dex/pairs/avalanche/0x1273227c0d368a65eb7942fa02ef68dbda466a26
-    // https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=matic-network
-    // https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&symbols=eth
-
-    //api call
-    // axios.get(url).then(response => {
-    //   // const priceZ = response.data.tether.zar
-      
-    //   // console.log(response.data.tether.zar)
-
-    // }).catch(error => {
-    //   console.log(error)
-    // })
-
-    wallet.getBalance().then((b) => {
-    setBalance(b);
-    }); 
-  }, [balance])
+  // useEffect(() => {
+  //   wallet.getBalance().then((b) => {
+  //   setBalance(b);
+  //   }); 
+  // }, [balance])
 
   return (
     <section className="content-area-cards">

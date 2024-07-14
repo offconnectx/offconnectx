@@ -42,8 +42,6 @@ class WalletStorage {
 		this.seqno += 1;
 	}
 
-
-
 	updateBalance = (amount: number) => {
 		this.balance -= amount
 	}
