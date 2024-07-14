@@ -1,7 +1,8 @@
-import { Cell, internal, SendMode, WalletContractV4 } from "@ton/ton";
+import { Cell, internal, SendMode, TonClient, WalletContractV4 } from "@ton/ton";
 import { walletStore } from "../storage/storage";
 import { mnemonicToWalletKey } from "@ton/crypto";
 import { generateMnemonic, getSecretKey, serialize } from "../services/wallet";
+import { getHttpEndpoint } from "@orbs-network/ton-access";
 
 
 class UseWallet {
@@ -59,9 +60,17 @@ class UseWallet {
 		
 		console.log(wallet)
 
+		const endpoint = await getHttpEndpoint({ network: "testnet"});
+		const client = new TonClient({ endpoint });
+
+		const walletContract =  client.open(wallet);
+
+
+		const seq_no = await walletContract.getSeqno();
+
 		const seqno = await walletStore.getSeqno();
 		const transfer = wallet?.createTransfer({
-			seqno: seqno,
+			seqno: seq_no,
 			secretKey: key.secretKey,
 			sendMode: SendMode.PAY_GAS_SEPARATELY,
 			messages: [
@@ -80,6 +89,12 @@ class UseWallet {
 		console.log(transfer)
 
 		serialize(transfer!)
+			// TODO: from here we needs internet connection
+	
+	console.log("Seq_No : ", seqno);
+
+	  
+	await walletContract.send(transfer); 
 
 		return 1;
 	}
