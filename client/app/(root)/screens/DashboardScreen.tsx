@@ -11,8 +11,6 @@ const Dashboard = () => {
 
 	const wallet = useWallet;
 
-
-
 	useEffect(() => {
 		wallet.getBalance().then((b) => {
 			setBalance(b);

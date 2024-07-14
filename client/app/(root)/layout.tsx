@@ -1,7 +1,6 @@
 
 import Image from "next/image";
 import { SidebarProvider } from "../context/SidebarContext"
-// import './App.scss';
 
 export default function RootLayout({
   children,
