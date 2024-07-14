@@ -40,19 +40,19 @@ class UseWallet {
 	}
 
 
-	createTx = async (pwd: string, recipient: string, amount: string, reference: string) => {
+	createTx = async (recipient: string, amount: string, reference: string) => {
 		// TODO: exception if createTransfer fails
 		//  TODO: exception if getSecretKey fails
 
 		
-		const mnemonic = await walletStore.getMnemonic(pwd)
+		const mnemonic = await walletStore.getMnemonic("1234567890")
 		if (mnemonic == null) {
 			return null;
 		}
 
 		console.log(mnemonic);
 		// TODO: get secretKey
-		const key = await getSecretKey(mnemonic ,pwd);
+		const key = await getSecretKey(mnemonic ,"1234567890");
 
 	
 		const wallet = WalletContractV4.create({publicKey: key.publicKey, workchain: 0}); 
