@@ -35,7 +35,7 @@ const LandingPage = () => {
       </section>
       <section id="contact" className="w-full mb-24">
         <Contact />
-      </section> */}
+      </section>
       <section id="cta" className="w-full mb-24">
         <CTA />
       </section>
