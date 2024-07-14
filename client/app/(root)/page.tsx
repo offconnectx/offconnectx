@@ -1,6 +1,6 @@
 'use client';
 import { useState } from "react";
-import { WalletContractV4 } from "@ton/ton";
+// import { WalletContractV4 } from "@ton/ton";
 import { useWallet } from "./hooks/useWallet";
 import CreateTx from "./components/CreateTx";
 
@@ -8,7 +8,7 @@ import CreateTx from "./components/CreateTx";
 export default function Home() {
   const wallet = useWallet;
 
-  const [connection, setConnection] = useState<WalletContractV4 | null>();
+  const [connection, setConnection] = useState<any | null>();
   const [password, setPassword] = useState<string>("");
 
   const connect = async (pwd: string) => {
@@ -22,6 +22,8 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
+
+
       {(connection) ? <div>
         <CreateTx />
       </div> :
@@ -47,12 +49,12 @@ export default function Home() {
             }}
             type="button" className="w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Import Wallet</button>
 
-<button
+          <button
             onClick={async () => {
               await connect(password);
             }}
             type="button" className=" w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Create Wallet</button>
-        
+
         </div>
       }
     </main >

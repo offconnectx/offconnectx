@@ -60,8 +60,9 @@ class UseWallet {
 
 		console.log(wallet)
 
+		const seqno = await walletStore.getSeqno();
 		const transfer = wallet?.createTransfer({
-			seqno: 4,
+			seqno: seqno,
 			secretKey: key.secretKey,
 			sendMode: SendMode.PAY_GAS_SEPARATELY,
 			messages: [
@@ -74,6 +75,8 @@ class UseWallet {
 			] 
 		});
 
+		walletStore.setSeqno();
+		// walletStore.updateBalance(amount)
 
 		console.log(transfer)
 
@@ -85,7 +88,7 @@ class UseWallet {
 	nfcTransfer = async () => {}
 
 	getBalance = async () => {
-		
+		return walletStore.getBalance();
 	}
 
 	

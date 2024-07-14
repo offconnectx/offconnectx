@@ -1,6 +1,7 @@
 
 import Image from "next/image";
-
+import { SidebarProvider } from "../context/SidebarContext"
+// import './App.scss';
 
 export default function RootLayout({
   children,
@@ -8,21 +9,21 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
 
-  
-  return (
-    <main className="flex h-screen w-full font-inter">
-      
 
-      <div className="flex size-full flex-col">
-        <div className="root-layout">
-          <Image src="/icons/logo.png" width={30} height={30} alt="logo" />
-          <div>
-            
+  return (
+    <SidebarProvider>
+      <main className="flex h-screen w-full font-inter">
+        <div className="flex size-full flex-col">
+          <div className="root-layout">
+            <Image src="/icons/logo.png" width={30} height={30} alt="logo" />
+            <div>
+
+            </div>
           </div>
+          {children}
         </div>
-        {children}
-      </div>
-    </main>
+      </main>
+    </SidebarProvider>
   );
 }
 

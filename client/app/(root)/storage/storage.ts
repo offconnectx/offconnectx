@@ -1,13 +1,23 @@
+import { number } from "prop-types";
 import { decryptMnemonic, encryptMnemonic } from "../services/wallet";
+
+
+const Transfer =  {
+	amount: number,
+	to: String,
+	date: Date
+}
 
 class WalletStorage {
 	private mnemonic: string | null;
 	private password: string | null;
 	private balance: number;
 	private seqno: number;
+	private transfers: Array<typeof Transfer>;
+
 
 	constructor() {
-		this.balance = 0;
+		this.balance = 5;
 		this.seqno = 0;
 
 		// hardcoded values designed for testing purposes
@@ -15,8 +25,27 @@ class WalletStorage {
 		const _pwd = "1234567890";
 		this.password = _pwd;
 		this.mnemonic =  encryptMnemonic(_mnemonic, _pwd);
+		this.transfers = []
 		// const _password = "1234567890";
 		// this.backupWallet(_mnemonic.split(" "), _password);
+	}
+
+	getBalance = async () => {
+		return this.balance;
+	}
+
+	getSeqno = async () => {
+		return this.seqno;
+	}
+
+	setSeqno = () => {
+		this.seqno += 1;
+	}
+
+
+
+	updateBalance = (amount: number) => {
+		this.balance -= amount
 	}
 
 	 backupWallet = async (mnemonic: Array<string>, pwd: string) => {

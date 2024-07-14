@@ -2,6 +2,7 @@ export const dynamic = 'force-dynamic'
 
 import type { Metadata } from "next";
 import { Inter, IBM_Plex_Serif } from "next/font/google";
+
 import "./globals.css";
 import { StateContextProvider } from "@/context";
 
@@ -30,7 +31,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <StateContextProvider>
-      <body className={`${inter.variable} ${ibmPlexSerif.variable}`}>{children}</body>
+        <body className={`${inter.variable} ${ibmPlexSerif.variable}`}>{children}</body>
       </StateContextProvider>
     </html>
   );
