@@ -8,10 +8,7 @@ import Footer from '@/components/Footer';
 import How from '@/components/How';
 import Stats from '@/components/Stats';
 import CTA from '@/components/CTA';
-import  Style  from '@/components/Style';
-import Mix from '@/components/Mix';
-// import Clients from '@/components/Team';
-// import Team from "@/components/Team";
+import Style from '@/components/Style';
 
 
 const LandingPage = () => {
@@ -33,8 +30,8 @@ const LandingPage = () => {
       {/* <section id="" className="w-full  mb-60">
         <Mix/>
       </section> */}
-      {/* <section id="faq" className="w-full mb-24">
-        <FAQ/>
+      <section id="faq" className="w-full mb-24">
+        <FAQ />
       </section>
       <section id="contact" className="w-full mb-24">
         <Contact />

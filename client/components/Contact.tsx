@@ -24,11 +24,11 @@ const Contact = () => {
     };
 
     return (
-        <div  id="contact" className="p-8">
-            <div className="grid sm:grid-cols-2 items-start gap-16 p-4 mx-auto max-w-4xl bg-sky-600 rounded-[10px]">
+        <div id="contact" className="p-8">
+            <div className="grid sm:grid-cols-2 items-start gap-16 p-4 mx-auto max-w-4xl bg-blue-gradient ">
                 <div>
                     <h1 className="text-white text-3xl font-extrabold">Contact Us</h1>
-                    <p className="text-sm text-white mt-4">Have some questions about <span className="text-gray-900 font-bold">OffConnectX</span>? Then reach out we'd love to hear about them and provide help.</p>
+                    <p className="text-sm text-white mt-4">Have some questions about <span className="text-gray-900 font-bold">OffConnectX</span>{"? Then reach out we'd love to hear about them and provide help"}.</p>
 
                     <div className="mt-12">
                         <h2 className="text-white text-base font-bold">Email</h2>
@@ -44,7 +44,7 @@ const Contact = () => {
                                 </div>
                                 <a href="javascript:void(0)" className="text-white text-sm ml-4">
                                     <small className="block">Mail</small>
-                                    <strong className="text-gray-900">offconnectx@gmail.com</strong>
+                                    <strong className="text-gray-900">{"offconnectx@gmail.com"}</strong>
                                 </a>
                             </li>
                         </ul>
@@ -65,55 +65,55 @@ const Contact = () => {
                             </li>
                             {/* <li className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
                                 <a href="https://twitter.com/africasblock">
-                                <svg width="30px" height="30px" viewBox="0 0 48 48" id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" fill="#007bff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><defs></defs>
-                                <path className="cls-1" d="M38.74,16.55v1c0,10.07-7.64,21.61-21.62,21.61A21.14,21.14,0,0,1,5.5,35.71a12.22,12.22,0,0,0,1.81.11,15.25,15.25,0,0,0,9.44-3.24,7.56,7.56,0,0,1-7.1-5.29,6.9,6.9,0,0,0,1.44.15,7.53,7.53,0,0,0,2-.27A7.57,7.57,0,0,1,7,19.72v-.1a7.42,7.42,0,0,0,3.44.94A7.54,7.54,0,0,1,8.05,10.5a21.58,21.58,0,0,0,15.68,7.94,6.38,6.38,0,0,1-.21-1.74,7.55,7.55,0,0,1,13.17-5.31,15.59,15.59,0,0,0,4.83-1.85,7.65,7.65,0,0,1-3.39,4.27,15.87,15.87,0,0,0,4.37-1.26,15.56,15.56,0,0,1-3.76,4Z"></path></g>
+                                    <svg width="30px" height="30px" viewBox="0 0 48 48" id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" fill="#007bff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><defs></defs>
+                                        <path className="cls-1" d="M38.74,16.55v1c0,10.07-7.64,21.61-21.62,21.61A21.14,21.14,0,0,1,5.5,35.71a12.22,12.22,0,0,0,1.81.11,15.25,15.25,0,0,0,9.44-3.24,7.56,7.56,0,0,1-7.1-5.29,6.9,6.9,0,0,0,1.44.15,7.53,7.53,0,0,0,2-.27A7.57,7.57,0,0,1,7,19.72v-.1a7.42,7.42,0,0,0,3.44.94A7.54,7.54,0,0,1,8.05,10.5a21.58,21.58,0,0,0,15.68,7.94,6.38,6.38,0,0,1-.21-1.74,7.55,7.55,0,0,1,13.17-5.31,15.59,15.59,0,0,0,4.83-1.85,7.65,7.65,0,0,1-3.39,4.27,15.87,15.87,0,0,0,4.37-1.26,15.56,15.56,0,0,1-3.76,4Z"></path></g>
                                     </svg>
                                 </a>
                             </li>
                             <li className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
                                 <a href="https://www.youtube.com/@abclubyoutube">
-                                <svg width="30px" height="30px" viewBox="0 -0.5 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M18.168 19.0028C20.4724 19.0867 22.41 17.29 22.5 14.9858V9.01982C22.41 6.71569 20.4724 4.91893 18.168 5.00282H6.832C4.52763 4.91893 2.58998 6.71569 2.5 9.01982V14.9858C2.58998 17.29 4.52763 19.0867 6.832 19.0028H18.168Z" stroke="#4886ea" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M12.008 9.17784L15.169 11.3258C15.3738 11.4454 15.4997 11.6647 15.4997 11.9018C15.4997 12.139 15.3738 12.3583 15.169 12.4778L12.008 14.8278C11.408 15.2348 10.5 14.8878 10.5 14.2518V9.75184C10.5 9.11884 11.409 8.77084 12.008 9.17784Z" stroke="#4886ea" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                    <svg width="30px" height="30px" viewBox="0 -0.5 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M18.168 19.0028C20.4724 19.0867 22.41 17.29 22.5 14.9858V9.01982C22.41 6.71569 20.4724 4.91893 18.168 5.00282H6.832C4.52763 4.91893 2.58998 6.71569 2.5 9.01982V14.9858C2.58998 17.29 4.52763 19.0867 6.832 19.0028H18.168Z" stroke="#4886ea" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M12.008 9.17784L15.169 11.3258C15.3738 11.4454 15.4997 11.6647 15.4997 11.9018C15.4997 12.139 15.3738 12.3583 15.169 12.4778L12.008 14.8278C11.408 15.2348 10.5 14.8878 10.5 14.2518V9.75184C10.5 9.11884 11.409 8.77084 12.008 9.17784Z" stroke="#4886ea" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
                                 </a>
                             </li>
-                             */}
+
                         </ul>
                     </div>
                 </div>
 
                 <form className="ml-auto space-y-4" onSubmit={(e) => { e.preventDefault(); handleSubmit(); }}>
-                    <input 
-                        type='text' 
+                    <input
+                        type='text'
                         name='name'
                         placeholder='Name'
                         value={formData.name}
                         onChange={handleChange}
-                        className="w-full rounded-md py-3 px-4 bg-gray-100 hover:text-white text-sm outline-blue-500 focus:bg-transparent" 
+                        className="w-full rounded-md py-3 px-4 bg-gray-100 hover:text-white text-sm outline-blue-500 focus:bg-transparent"
                     />
-                    <input 
-                        type='email' 
+                    <input
+                        type='email'
                         name='email'
                         placeholder='Email'
                         value={formData.email}
                         onChange={handleChange}
-                        className="w-full rounded-md py-3 px-4 bg-gray-100 hover:text-white text-sm outline-blue-500 focus:bg-transparent" 
+                        className="w-full rounded-md py-3 px-4 bg-gray-100 hover:text-white text-sm outline-blue-500 focus:bg-transparent"
                     />
-                    <input 
-                        type='text' 
+                    <input
+                        type='text'
                         name='subject'
                         placeholder='Subject'
                         value={formData.subject}
                         onChange={handleChange}
-                        className="w-full rounded-md py-3 px-4 bg-gray-100 hover:text-white text-sm outline-blue-500 focus:bg-transparent" 
+                        className="w-full rounded-md py-3 px-4 bg-gray-100 hover:text-white text-sm outline-blue-500 focus:bg-transparent"
                     />
-                    <textarea 
+                    <textarea
                         name='message'
-                        placeholder='Message' 
+                        placeholder='Message'
                         rows={6}
                         value={formData.message}
                         onChange={handleChange}
                         className="w-full rounded-md px-4 bg-gray-100 hover:text-white text-sm pt-3 outline-blue-500 focus:bg-transparent"
                     ></textarea>
-                    <button 
+                    <button
                         type='submit'
                         className="text-white bg-sky-400 hover:bg-sky-300 tracking-wide rounded-md text-sm px-4 py-3 w-full !mt-6"
                     >
