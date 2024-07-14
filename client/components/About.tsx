@@ -26,7 +26,7 @@ const Services: React.FC = () => {
             Revolutionizing Offline Transactions
           </h1>
           <p className="text-left my-2 text-white font-light md:w-9/12 w-11/12 text-base">
-            In today's hyper-connected world, <span className="font-semibold text-sky-400">OffConnectX</span> stands out by enabling transactions without the need for internet access. This innovation tackles some of the most frustrating issues users face, such as the ones listed below:
+            {"In today's hyper-connected world,"} <span className="font-semibold text-sky-400">OffConnectX</span> {"stands out by enabling transactions without the need for internet access. This innovation tackles some of the most frustrating issues users face, such as the ones listed below:"}
           </p>
           {/* <h2 className="text-white font-semibold mt-4">Addressing Mobile Financial Transaction Issues</h2> */}
 
