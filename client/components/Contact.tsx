@@ -25,7 +25,7 @@ const Contact = () => {
 
     return (
         <div id="contact" className="p-8">
-            <div className="grid sm:grid-cols-2 items-start gap-16 p-4 mx-auto max-w-4xl bg-blue-gradient ">
+            <div className="grid sm:grid-cols-2 items-start gap-16 p-4 mx-auto max-w-4xl bg-sky-600 ">
                 <div>
                     <h1 className="text-white text-3xl font-extrabold">Contact Us</h1>
                     <p className="text-sm text-white mt-4">Have some questions about <span className="text-gray-900 font-bold">OffConnectX</span>{"? Then reach out we'd love to hear about them and provide help"}.</p>
